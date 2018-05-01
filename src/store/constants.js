@@ -1,0 +1,4 @@
+export default {
+  SEARCH_INPUT_CHANGE: "SEARCH_INPUT_CHANGE",
+  SET_REPOS: "SET_REPOS"
+};
