@@ -17,7 +17,7 @@ const initialState = {
 //   }
 // };
 
-const RepoSearch = (state = initialState, action) => {
+const RepoSearchReducer = (state = initialState, action) => {
   console.log("reducer", action);
   switch (action.type) {
     case SEARCH_INPUT_CHANGE:
@@ -29,4 +29,4 @@ const RepoSearch = (state = initialState, action) => {
   }
 };
 
-export default RepoSearch;
+export default RepoSearchReducer;
