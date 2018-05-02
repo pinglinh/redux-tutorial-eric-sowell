@@ -6,7 +6,10 @@ function getRepos(dispatch, query) {
     .then(response => response.json())
     .then(data => {
       console.log("do we have data?", data);
-      dispatch({ type: SET_REPOS, repos: data.items });
+      dispatch({
+        type: SET_REPOS,
+        repos: data.items
+      });
     });
 }
 
