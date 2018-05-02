@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import store from "./store";
-import RepoSearch from "./components/RepoSearch";
+import RepoSearch from "./containers/RepoSearch";
 
 class App extends Component {
   render() {
